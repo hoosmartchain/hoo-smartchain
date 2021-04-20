@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../go-ethereum-code-analysis-master"
+		},
+		{
+			"path": "../go-ethereum-master"
+		},
+		{
+			"path": "../Hooco-chain-docs-master"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Hooco-contracts-master"
+		}
+	]
+}
