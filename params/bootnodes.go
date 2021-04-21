@@ -21,7 +21,7 @@ import "github.com/ethereum/go-ethereum/common"
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Ethereum network.
 var MainnetBootnodes = []string{
-	// Ethereum Foundation Go Bootnodes
+	// Ethereum Foundation Go Bootnodes//TODO
 	"enode://7bed18c87054f807bc9096501bc78f737363f357af831791bab07c4fa6c5a1a67cdcf0a097dc2cc918262ef04fb1c05c26026df5c11a6a56666f9b1fb4072210@18.178.30.66:32668",
 	"enode://d67251dd3b050e555679a8abdc427a4c78a9bae174f2fd3b9163c364d27b6a69688ee067cd3214e8ceb71e6e602fd812797b085ae37ed3bf93b78e2b77ae3306@18.181.40.7:32668",
 	"enode://f88bb1f5d0e42cf75ec879212b7c8477d605315d5296fba02bc4600eccf73c64427de46567a320d00985d5bc612168817ba6dff169bd6a4774e112e6db0ff6a2@18.176.66.118:32668",
@@ -29,8 +29,8 @@ var MainnetBootnodes = []string{
 
 // TestnetBootnodes are the enode URLs of the P2P bootstrap nodes running on the
 var TestnetBootnodes = []string{
-	"enode://924543a43d18bc5759a8bdcd17fa9c7c35df63968e9333640b80b58dab94b17a012371c9d46bed10ce7508a607cac76828ca04685893958eee44ade83b856dc2@47.242.237.63:32668",
-	"enode://ebad898d980b520ef6adb54ffb6a68117686e7332f1ea01f7551b7a296a34dd945445a078d7cad019d864c5ef0e0b7f2b5777d94f93adf7dc59f798af72609ac@47.242.235.121:32668",
+	"enode://334b2ad9af2ac86d61a26ee40cbde45b2e9cd42ed7bdb736442c4cfdd5e83cda1fe2a5bd967c7edc77d836d034b10720e4447f5fa2f9794d30474e5101c7c6ab@18.181.232.158:33668",
+	"enode://0888317e374494269778294d6f1d11b607c44473efb09b4f3571b471b672d8ac5a488ac5da60aef194d91d3288f283b4a5dc8f53f57221b9095ae29c8ee59896@35.73.127.28:33668",
 }
 
 // KnownDNSNetwork returns the address of a public DNS-based node list for the given
