@@ -157,9 +157,9 @@ snapshot:
 snapshot0:
 	docker run --rm --privileged \go 
 		-e GOPROXY=https://goproxy.cn,direct \
-		-v $PWD:/go/src/github.com/vvvictorlee/hsc \
+		-v $PWD:/go/src/github.com/hoosmartchain/hsc \
 		-v /var/run/docker.sock:/var/run/docker.sock \
-		-w /go/src/github.com/vvvictorlee/hsc \
+		-w /go/src/github.com/hoosmartchain/hsc \
 		goreng/golang-cross:latest --snapshot --skip-publish --rm-dist
 golang-cross:
 	docker pull goreng/golang-cross
