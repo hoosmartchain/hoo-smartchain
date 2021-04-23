@@ -123,8 +123,8 @@ Hoolobal will strongly support the development of HSC ecosystem:
 ## Interact with Us on Social Media
 - Facebook：HooSmart Chain
 - Twitter：HooSmartChain
-- Telegram： HoooChain
-- Weibo：虎符智能链Hoo
+- Telegram： HooSmartChain
+- Weibo：HooSmartChain
 - Wechat Offical Account：HooSmart HSC
 
 ## Risk Warning
