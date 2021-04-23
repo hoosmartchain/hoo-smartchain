@@ -7,7 +7,7 @@ English | [简体中文](README_CN.md)
 The Hoopen Platform is a unified infrastructure platform based on the technical, traffic and ecological resources of the HoHooup, and will be gradually open to the blockchain industry. It will make the construction of decentralized applications more efficient and cost-effective, and provide comprehensive empowerment in aspects of promotion, traffic, and resources. In December 2020, the first product of the Hoo HooPlatform, the Hoo ECHooin, also known as HSC, officially launched its "Thunder" phase. In addition, Hoo OpenHooform will launch DEX and other blockchain infrastructures based on Layer 2. The Hoo Open PHoorm will provide global developers with series of diverse innovative facilities and services.
 
 ## Introduction to HooSmart Chain
-HooSmart Chain (HSC) is a decentralized, high-efficiency and energy-saving public chain, also the first product launched by the HoHoon Platform. It is compatible with smart contracts and supports high-performance transactions. The endogenous token of HSC is HT and it adopts the HPoS consensus mechanism. HSC will continue to improve the efficiency of Ethereum by Layer2, which will supplement and empower the Ethereum ecosystem.
+HooSmart Chain (HSC) is a decentralized, high-efficiency and energy-saving public chain, also the first product launched by the HoHoon Platform. It is compatible with smart contracts and supports high-performance transactions. The endogenous token of HSC is HOO and it adopts the PosA consensus mechanism. HSC will continue to improve the efficiency of Ethereum by Layer2, which will supplement and empower the Ethereum ecosystem.
 
 ## Declaration
 To help developers’ evolvement at every stage 
@@ -20,14 +20,14 @@ Technological innovation is the driving force behind the advancement of the bloc
 - Average block interval: 3s
 
 ## Consensus Mechanism
-HPoS consensus mechanism: it has the characteristics of low transaction cost, low transaction delay, and high transaction concurrency.
+PosA consensus mechanism: it has the characteristics of low transaction cost, low transaction delay, and high transaction concurrency.
 
 The maximum number of validators supported is 21.
 
 ## Economic Model 
-The endogenous token on the chain is HT; the transactions consume HT as gas fee.
+The endogenous token on the chain is HOO; the transactions consume HOO as gas fee.
 
-Miners pledge HT to become validator nodes. The reward of nodes is gas fee, which is distributed according to the mortgage proportion. 
+Miners pledge HOO to become validator nodes. The reward of nodes is gas fee, which is distributed according to the mortgage proportion. 
 
 ## Cross-Chain
 Assets such as BTC, ETH and stable coins can be mapped to HSC by an asset bridge. The realization method is to lock a certain amount of tokens on the original chain then generate a corresponding number of tokens on HSC. 
@@ -107,7 +107,7 @@ Oracles, Voting tools, Anchor Coins, DEX, Lending, Fnancial Management, Insuranc
 ### Financial Support
 - HSC will set up a special fund to invest, support and incentivize high-potential developers.
 - HSC will launch a variety of developer activities and competitions to discover and fund potential developers. 
-- In order to reduce the cost of users on HSC Dapp, the HSC meta transaction function will reduce the gas fee of users holding HT in a step-wise manner.
+- In order to reduce the cost of users on HSC Dapp, the HSC meta transaction function will reduce the gas fee of users holding HOO in a step-wise manner.
 
 ### Traffic Support
 Hoolobal will strongly support the development of HSC ecosystem:
