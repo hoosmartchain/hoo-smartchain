@@ -146,3 +146,20 @@ geth-windows-amd64:
 	$(GORUN) build/ci.go xgo -- --go=$(GO) --targets=windows/amd64 -v ./cmd/geth
 	@echo "Windows amd64 cross compilation done:"
 	@ls -ld $(GOBIN)/geth-windows-* | grep amd64
+snapshot:
+	docker run --rm --privileged \
+  		-e GOPROXY=https://goproxy.cn,direct \
+		-v $(CURDIR):/hsc \
+		-v /var/run/docker.sock:/var/run/docker.sock \
+		-v $(GOPATH)/src:/go/src \
+		-w /hsc \
+		goreng/golang-cross:latest --snapshot --skip-publish --rm-dist
+snapshot0:
+	docker run --rm --privileged \
+		-e GOPROXY=https://goproxy.cn,direct \
+		-v $PWD:/go/src/github.com/vvvictorlee/hsc \
+		-v /var/run/docker.sock:/var/run/docker.sock \
+		-w /go/src/github.com/vvvictorlee/hsc \
+		goreng/golang-cross:latest --snapshot --skip-publish --rm-dist
+golang-cross:
+	docker pull goreng/golang-cross
