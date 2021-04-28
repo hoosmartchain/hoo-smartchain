@@ -438,7 +438,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 					log.Warn("Failed to send captcha failure to client", "err", err)
 					return
 				}
-				continue
+				return
 			}
 		}
 		// Retrieve the Ethereum address to fund, the requesting user and a profile picture
