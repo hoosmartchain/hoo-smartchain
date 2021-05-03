@@ -19,7 +19,6 @@ package vm
 import (
 	"encoding/hex"
 	"errors"
-	"fmt"
 	"math/big"
 	"sync/atomic"
 	"time"
@@ -487,7 +486,7 @@ func (evm *EVM) create(caller ContractRef, codeAndHash *codeAndHash, gas uint64,
 // Create creates a new contract using code as deployment code.
 func (evm *EVM) Create(caller ContractRef, code []byte, gas uint64, value *big.Int) (ret []byte, contractAddr common.Address, leftOverGas uint64, err error) {
 	contractAddr = crypto.CreateAddress(caller.Address(), evm.StateDB.GetNonce(caller.Address()))
-	log.Info("Create -> ContractCreationCode", fmt.Sprintf("%v, %v", contractAddr.String(), hex.EncodeToString(code)))
+	log.Info("Create", "blockNumber", evm.BlockNumber, "caller", caller.Address(), "contractAddr", contractAddr.String(), "creationCode", hex.EncodeToString(code))
 	return evm.create(caller, &codeAndHash{code: code}, gas, value, contractAddr)
 }
 
@@ -498,7 +497,7 @@ func (evm *EVM) Create(caller ContractRef, code []byte, gas uint64, value *big.I
 func (evm *EVM) Create2(caller ContractRef, code []byte, gas uint64, endowment *big.Int, salt *uint256.Int) (ret []byte, contractAddr common.Address, leftOverGas uint64, err error) {
 	codeAndHash := &codeAndHash{code: code}
 	contractAddr = crypto.CreateAddress2(caller.Address(), common.Hash(salt.Bytes32()), codeAndHash.Hash().Bytes())
-	log.Info("Create2 -> ContractCreationCode", fmt.Sprintf("%v, %v", contractAddr.String(), hex.EncodeToString(code)))
+	log.Info("Create2", "blockNumber", evm.BlockNumber, "caller", caller.Address(), "contractAddr", contractAddr.String(), "creationCode", hex.EncodeToString(code))
 	return evm.create(caller, codeAndHash, gas, endowment, contractAddr)
 }
 
