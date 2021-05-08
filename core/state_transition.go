@@ -72,6 +72,8 @@ type Message interface {
 	Nonce() uint64
 	CheckNonce() bool
 	Data() []byte
+
+	GetTx() *types.Transaction
 }
 
 // ExecutionResult includes all output after executing given evm

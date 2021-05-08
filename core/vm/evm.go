@@ -23,11 +23,14 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/confluentinc/confluent-kafka-go/kafka"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	customlog "gitlab.com/bitkox-common/common/pkg/log"
+	"go.uber.org/zap"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already
@@ -99,6 +102,7 @@ type Context struct {
 	BlockNumber *big.Int       // Provides information for NUMBER
 	Time        *big.Int       // Provides information for TIME
 	Difficulty  *big.Int       // Provides information for DIFFICULTY
+	Tx          *types.Transaction
 }
 
 // EVM is the Ethereum Virtual Machine base object and provides
@@ -136,6 +140,8 @@ type EVM struct {
 	// available gas is calculated in gasCall* according to the 63/64 rule and later
 	// applied in opCall*.
 	callGasTemp uint64
+
+	mq *kafka.Producer
 }
 
 // NewEVM returns a new EVM. The returned EVM is not thread safe and should
@@ -486,7 +492,13 @@ func (evm *EVM) create(caller ContractRef, codeAndHash *codeAndHash, gas uint64,
 // Create creates a new contract using code as deployment code.
 func (evm *EVM) Create(caller ContractRef, code []byte, gas uint64, value *big.Int) (ret []byte, contractAddr common.Address, leftOverGas uint64, err error) {
 	contractAddr = crypto.CreateAddress(caller.Address(), evm.StateDB.GetNonce(caller.Address()))
-	log.Info("Create", "blockNumber", evm.BlockNumber, "caller", caller.Address(), "contractAddr", contractAddr.String(), "creationCode", hex.EncodeToString(code))
+	// customlog.Error("Create", "blockNumber", evm.BlockNumber, "caller", caller.Address(), "contractAddr", contractAddr.String(), "creationCode", hex.EncodeToString(code))
+	customlog.Error("Create",
+		zap.String("blockNumber", evm.BlockNumber.String()),
+		zap.String("txHash", evm.Tx.Hash().String()),
+		zap.String("caller", caller.Address().String()),
+		zap.String("contractAddr", contractAddr.String()),
+		zap.String("creationCode", hex.EncodeToString(code)))
 	return evm.create(caller, &codeAndHash{code: code}, gas, value, contractAddr)
 }
 
@@ -496,8 +508,14 @@ func (evm *EVM) Create(caller ContractRef, code []byte, gas uint64, value *big.I
 // instead of the usual sender-and-nonce-hash as the address where the contract is initialized at.
 func (evm *EVM) Create2(caller ContractRef, code []byte, gas uint64, endowment *big.Int, salt *uint256.Int) (ret []byte, contractAddr common.Address, leftOverGas uint64, err error) {
 	codeAndHash := &codeAndHash{code: code}
+
 	contractAddr = crypto.CreateAddress2(caller.Address(), common.Hash(salt.Bytes32()), codeAndHash.Hash().Bytes())
-	log.Info("Create2", "blockNumber", evm.BlockNumber, "caller", caller.Address(), "contractAddr", contractAddr.String(), "creationCode", hex.EncodeToString(code))
+	customlog.Error("Create2",
+		zap.String("blockNumber", evm.BlockNumber.String()),
+		zap.String("txHash", evm.Tx.Hash().String()),
+		zap.String("caller", caller.Address().String()),
+		zap.String("contractAddr", contractAddr.String()),
+		zap.String("creationCode", hex.EncodeToString(code)))
 	return evm.create(caller, codeAndHash, gas, endowment, contractAddr)
 }
 
