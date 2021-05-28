@@ -2,130 +2,232 @@
 
 English | [简体中文](README_CN.md)
 
+## Background
 
-## Introduction to the Hoopen Platform
-The Hoopen Platform is a unified infrastructure platform based on the technical, traffic and ecological resources of the HoHooup, and will be gradually open to the blockchain industry. It will make the construction of decentralized applications more efficient and cost-effective, and provide comprehensive empowerment in aspects of promotion, traffic, and resources. In December 2020, the first product of the Hoo HooPlatform, the Hoo ECHooin, also known as HSC, officially launched its "Thunder" phase. In addition, Hoo OpenHooform will launch DEX and other blockchain infrastructures based on Layer 2. The Hoo Open PHoorm will provide global developers with series of diverse innovative facilities and services.
+Centralized exchange is the hub of the blockchain world, crpto assets of different chains are exchanged at a very high frequency through centralized exchanges.
 
-## Introduction to HooSmart Chain
-HooSmart Chain (HSC) is a decentralized, high-efficiency and energy-saving public chain, also the first product launched by the HoHoon Platform. It is compatible with smart contracts and supports high-performance transactions. The endogenous token of HSC is HOO and it adopts the PosA consensus mechanism. HSC will continue to improve the efficiency of Ethereum by Layer2, which will supplement and empower the Ethereum ecosystem.
+However, it is enclosed and non-expandable system. As an open Ethereum, its ecological soil is extremely prosperous. Both project parties and users can enter the blockchain world anonymously without authorization. The expansion and openness of the public chain give the project itself great room for future development.
 
-## Declaration
-To help developers’ evolvement at every stage 
+## About Hoo Smart Chain
 
-## Vision
-Technological innovation is the driving force behind the advancement of the blockchain industry, but many innovative projects have been misunderstood and ignored at their early stages. We have witnessed the growth process of great projects. Recalling that Ethereum and Polkadot were questioned as altcoins in the early days, they all went through difficult times. Therefore, HSC's mission is not only a public chain, but also to focus on the discovery and support of high-potential developers and innovative projects. Relying on the world's largest trading ecosystem, HSC is committed to becoming the birthplace of innovative technologies and innovative businesses, and building a complete ecological loop of technology development, application promotion, and trading.
+Hoo Smart Chain(short for HSC) is a decentralized, efficient and energy-saving public chain, which can provide developers with an efficient and low-cost on-chain environment to run decentralized smart contract applications (DApps) and store digital assets.
 
-## HSC’s Performance
-- TPS: 500+
-- Average block interval: 3s
+HSC is an open and friendly blockchain platform built by Hoo Group based on the ecological resources of the blockchain, based on Hoo technology and the advantages of digging new projects.
 
-## Consensus Mechanism
-PosA consensus mechanism: it has the characteristics of low transaction cost, low transaction delay, and high transaction concurrency.
+The HSC Ecological Alliance provides a full range of support services for multi-chain Dapps to help developers better serve user needs and provide a high-quality on-chain experience with low cost and high performance.
 
-The maximum number of validators supported is 21.
+HSC adopts the PoSA consensus mechanism, each participating node has the same rights. It allows developers to freely build decentralized applications, including DeFi protocols, digital assets, etc.
 
-## Economic Model 
-The endogenous token on the chain is HOO; the transactions consume HOO as gas fee.
+In addition, HSC can simply and efficiently realize the value interconnection of each blockchain through cross-chain modules, so as to jointly build an ecosystem and a value-added system.
 
-Miners pledge HOO to become validator nodes. The reward of nodes is gas fee, which is distributed according to the mortgage proportion. 
+HSC aims to promote the development of large-scale commercial applications based on blockchain technology.
 
-## Cross-Chain
-Assets such as BTC, ETH and stable coins can be mapped to HSC by an asset bridge. The realization method is to lock a certain amount of tokens on the original chain then generate a corresponding number of tokens on HSC. 
+The HSC Ecological Alliance jointly builds an open symbiotic ecology and is committed to broadening the blockchain world and bringing a more complete ecological closed loop.
 
-HSC encourages developers to provide more decentralized cross-chain solution.  
+## Hoo Smart Chain Ecology
 
-## Meta Transaction Function
-The meta-transaction function is supported, which allows users to reduce gas fees step-wise, and HSC will cover the payment of the reduced part. The meta-transaction function allows to minimize the migration cost of DApp developers, as well as to effectively reduce the cost of DApp users.
+Hoo Smart Chain is a large-scale distributed operating system, with thousands of nodes running smoothly on servers and terminals all over the world.
 
-## HSC Technical Characteristics
-- An open and decentralized network to maintain the security of the network and assets.
-- Support the programmability of EVM, the compatibility of smart contracts to reduce development or migration costs.
-- Meta-transaction function: gas fee reduction, effectively reducing the cost of developers and users on the chain.
-- Support cross-chain asset transfer to optimize users’ experience.
+The strength of Hoo Smart Chain cannot be separated from the support of application software, and the prosperity of Hoo Smart Chain ecology cannot be separated from the follow-up of community developers.
 
-## Four Stages of HSC
+There are many excellent applications in the Hoo Ecosystem, including DeFi protocols, NFT and other sectors. Such as wallet, block chain browser, DEX, lending, oracle, NFT trading market, etc.
 
-<table >
-    <tr style="background:rgba(0,0,0,0)" ><th colspan=5>HSC Technical Route</th> </tr>
-    <tr style="background:rgba(0,0,0,0)" >
-<th > Stage </th><th> Features </th><th> Time </th><th> Sub Stage </th><th> Technical Points </th>
-</tr>
-<tr style="background:rgba(0,0,0,0)" >
-<tr style="background:rgba(0,0,0,0)" ><td rowspan=9 >Thunder</td><td rowspan=9 >
-The initial version of HSC.
+## Hoo Smart Chain  Ecological Co-construction Plan
 
-The system is stable and easy to use.
+### HSC Eco-capital
 
-Developers can develop and promote Dapp at low cost.
+HSC Ecological Co-construction Plan Eco-capital Hoo unites with alliance partners to establish HSC Eco-capital. Inject capital for potential projects, provide liquidity and other support, realize capital gains in the alliance ecology, reinvest in the HSC ecology, and realize a closed-loop business.
 
-Users can participate in Dapp on HSC with a low threshold.</td><td rowspan=9 >2020 Q4-2021 Q1</td><td rowspan=3 >Public Beta</td><td>Higher transaction performance</td></tr>
-<tr style="background:rgba(0,0,0,0)" ><td>Lower transaction costs</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Meta transaction subsidy</td></tr>
-<tr style="background:rgba(0,0,0,0)"> <td rowspan=3 >Node Election</td><td>More decentralized and safer</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Complete mainstream assets</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Basic tools in place</td></tr>
-<tr style="background:rgba(0,0,0,0)"> <td rowspan=3 >Ecosystem Incubation</td><td>Technical service systemization</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Basic tool customization</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Convenient asset transfer</td></tr>
+### HSC Eco-Alliance
 
-<tr style="background:rgba(0,0,0,0)"><td rowspan=5 > Spark </td><td rowspan=5 > 
-The protocol is further optimized. 
+HSC Eco-Alliance include but are not limited to blockchain industry partners such as exchanges, wallets, capital, media, and project communities, aiming to provide HSC developers with all-round support throughout the life cycle of the project and help the project succeed.
 
-HSC will take the mission of connecting CeFi and DeFi, 
+## Hoo Smart Chain Design Logic
 
-allowing more users to use DeFi applications at a low threshold.  </td> <td rowspan=5 >2021 Q3 </td> <td rowspan=5 > To be announced  </td> <td>Complete developer tools</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Complete developer forum, blog, and FAQ information</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Chain ecological infrastructure booms</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Innovative open ID</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Personalized portal accurately matches users and Dapps</td></tr>
+Hoo Smart Chain (HSC) Design Logic: Hoo Smart Chain adopts a highly abstract modular design idea, dividing the system into several core modules such as basic network, database storage, consensus algorithm, transaction processor, virtual machine, application layer interface, etc.
 
-<tr style="background:rgba(0,0,0,0)"><td rowspan=3>Flame</td> <td rowspan=3>
+After the Hoo Smart Chain goes online, any developer can easily build decentralized projects on Hoo Smart Chain. In addition, HSC will gradually open up several innovative services in the later period.
 
-Enable Layer2 technology.
-Expand performance while retaining the decentralized advantages of distributed protocols.</td><td rowspan=3>2022 Q2</td><td rowspan=3>To be announced</td><td>Application of Layer2</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Cross-chain interoperability protocol</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Cross-chain interoperability integration</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td rowspan=5>Blaze</td> <td rowspan=5>
+### Design Logic
 
+1. Technically speaking, HSC does not belong to a two-layer solution, but is a side chain of Etherum. Most of the technical functions and business functions of HSC are developed by the HSC team.
+2. Compatible with current mainstream public chains including Etherum, BSC, Heco Chain, etc. The above public chains have relatively mature applications and communities. Therefore, most of the mature Dappa, ecosystem components and tools in the industry can be adapted to HSC. HSC nodes will perform hardware specifications and HSC functions.
+### Improvement Plan
 
-Landing of large-scale commercial applications. 
-Support a variety of traditional businesses to run smoothly on the chain</td> <td rowspan=5>2023 Q1</td> <td rowspan=5>To be announced</td><td>Multiple virtual machine s supported</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Multiple zero-knowledge proofs and privacy protection capabilities</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Multiple signature schemes</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Storage compression and expansion solution</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Multi-dimensional sharding scheme</td></tr>
+According to the current problems faced by the industry, HSC will make improvements at the following levels:
 
-</table>
+1. Block confirmation is 3 seconds faster than mainstream block chains including Etherum and BTC;
+2. HSC's gas fee serves as a block reward, and the gas fee is HOO(Hoo Exchange Platform Token)
+3. Bring in Staking mechanism, set up an HSC alliances to support project parties and carry out node elections.
+## The Characteristics of Hoo Smart Chain
 
+### Overview
 
+Hoo Smart Chain (HSC) Features Consensus mechanism: PoSA
 
-## Current Stage of HSC
-In December 2020, the HooSmart chain, HSC officially launched its "Thunder" phase, which will focus on improving the on-chain infrastructure, including but not limited to:
-Oracles, Voting tools, Anchor Coins, DEX, Lending, Fnancial Management, Insurance, Synthetic Assets, Cross-Chain Solutions, Data Analysis, Smart Contract Innovation, etc.
+TPS: 500 +
 
-## Support Plan of HSC
-### Financial Support
-- HSC will set up a special fund to invest, support and incentivize high-potential developers.
-- HSC will launch a variety of developer activities and competitions to discover and fund potential developers. 
-- In order to reduce the cost of users on HSC Dapp, the HSC meta transaction function will reduce the gas fee of users holding HOO in a step-wise manner.
+Block-Out Cost: 3 seconds
 
-### Traffic Support
-Hoolobal will strongly support the development of HSC ecosystem:
-- Provide traffic entrance for high-quality Dapp on HSC.
-- After running successfully on HSC, high-quality projects can submit token listing application to Hoolobal, and can be listed on HoHoobal if they meet the listing standards.
+### Features:
 
-### Resource Support
-- Projects or developers that have received investment and support from HSC have not only the opportunity to get official news report, but also can apply for marketing service packages and promote their projects globally.
-- High-quality projects can participate in HSC global roadshows for free.
-- Hooroup will open up ecological resources to high-potential developers, matching the win-win cooperation between developers and our ecological partners.
+1. High throughput
 
+High throughput is achieved by improving the TPS in the HSC. The HSC block confirmation time is 3 seconds, and the practical degree of daily use has exceeded bitcoin and Ethereum.
 
-## Interact with Us on Social Media
-- Facebook：HooSmart Chain
-- Twitter：HooSmartChain
-- Telegram： HooSmartChain
-- Weibo：HooSmartChain
-- Wechat Offical Account：HooSmart HSC
+1. Scalability
+
+Based on good scalability and efficient smart contracts. Applications can have more deployment methods in HSC, and HSC can support a large number of users.
+
+1. High Reliability
+
+HSC has a more reliable network structure, user assets, intrinsic value, and a higher degree of decentralized consensus has brought about an improved reward distribution mechanism.
+
+### PoSA
+
+The types of PoSA consensus mechanisms are quite different, including Proof-of-Work (PoW), Proof-of-Authority (PoA), and Proof-of-Stake (PoS).
+
+PoW uses computing power to mine to maintain the network.
+
+PoA adopts the verifier mechanism, but this is considered by some people to be less decentralized by POA.
+
+The PoSA consensus mechanism to be adopted by HSC integrates the characteristics of PoA and PoS, among which:
+
+1. The number of verifiers is limited, and blocks are produced after verification by a certain number of verifiers
+2. The verifiers take turns to generate blocks, similar to the generation method of PoA
+3. It can become a verifier through Staking to participate in the governance of HSC
+## Cross-Chain Technology
+
+The use of cross-chain technology principles is very important for the blockchain industry. Through HSC cross-chain technology, users can freely circulate their assets. The advantages include:
+
+1. Users can build digital assets based on HSC, decentralized financial products
+2. HSC chain projects and assets can circulate freely and stably, and are more efficient, convenient, and low-cost than major public chains in the current industry.
+3. HSC can assume the role of a transfer station for block chain assets. Through the asset cross-chain bridge, the public chain assets are mapped to HSC, and after the assets are locked on the chain, the corresponding number of Token is generated in HSC
+### Hoo Virtual Machine
+
+Hoo Virtual Machine (HVM) is implemented by Hoo Smart Chain is fully compatible with Ethereum Virtual Machine, which facilitates developers to transplant existing Dapps, not only reduces the learning cost of developers, but also greatly improves the operating efficiency of Dapps due to the natural advantages of Hoo Smart Chain PoSA consensus algorithm and the operating cost of Dapps is greatly reduced. Hoo Virtual Machine (HVM) has also undergone many optimizations, which greatly reduces the operating cost of Dapps at the same.
+
+At the same time, many new features have been developed to support the business logic of smart contracts, such as supporting batch check in smart contracts and supporting the judgment of contract addresses in smart contracts.
+
+1. Lightweight
+
+HVM adopts a lightweight virtual machine architecture, which aims to save operating space, reduce resource consumption and ensure system performance.
+
+1. Stability and Security
+
+HVM adopts rigorous design specifications and low-granularity underlying opcodes, which ensure the accuracy of each calculation step and eliminate the space for ambiguity to the greatest extent. At the same time, due to security considerations, the transfer and operation contract of HVM does not need to consume tokens, but only consumes bandwidth, avoiding attacks on similar Ethereum gas consumption patterns. While ensuring the certainty of each operation calculation step, it also ensures the stability of bandwidth consumption.
+
+1. Compatibility
+
+At present, HVM can be perfectly compatible with Ethereum Virtual Machine, and will be compatible with more mainstream VMs in the future. Therefore, the smart contract on Ethereum can be directly run on HVM, seamlessly connecting with the existing developer ecology, and improving the development efficiency of developers. Developers do not need to learn a new programming language, they can use mainstream programming languages such as Solidity to develop, debug, and compile smart contracts in a familiar Remix environment, which will greatly reduce the development cost.
+
+1. Developer-friendly
+
+HVM's bandwidth consumption mode reduces the development cost of the contract. Let developers focus more on the logic of the contract code itself. At the same time, HVM provides a one-stop interface for developers to deploy, trigger, and view smart contracts.
+
+### Model design and mechanism
+
+### Account Model
+
+HSC adopts the account model. The unique identification of the account is the address, and the private key signature needs to be verified for account operations. The project side can publish and create smart contracts, or call smart contracts published by others, or vote on nodes, etc. All activities of HSC are carried out around accounts.
+
+### Resource Model
+
+Hoo Smart Chain has designed a set of perfect resource models and supports the dynamic adjustment of resource model parameters. This is a very excellent feedback adjustment mechanism. For example, when the transactions on the chain are busy, the transaction fees and usage costs will become higher. When idle, the cost of these resources will be reduced accordingly. In addition, a certain amount of free resource quotas are set for users. At the same time, users are supported to obtain the corresponding amount of voting rights by freezing HOO, and users can get corresponding rewards by voting for nodes.
+
+### Governance and Voting Mechanism
+
+Hoo Smart Chain has set up a scientific and efficient incentive mechanism to promote the self-prosperity of the block chain. Nodes have the right to produce blocks, package transactions, and obtain the corresponding block production incentives. At the same time, nodes can also get vote rewards.
+
+System parameters can be regulated through the governance of the community, including:
+
+1. The parameters of the HSC system contract are all flexible, such as cross-chain transfer fees, repeater reward amount, etc., which is conducive to the good operation of the ecology
+2. The parameters of the Stake/Slash/Oracle module on the HSC All these parameters are determined together by the HSC verification assembly according to its Staking through the proposed voting process. Such a process will be carried out on the HSC chain.
+#### Governance Design Principles
+
+1. A unified interface. Contracts interested in these parameters only need to implement the same interface.
+2. Extensible. When adding a new system contract, there is no need to modify any other contract.
+3. Failure tolerance. The verifiers can skip the wrong suggestion and continue by voting.
+4. Multiplexing. Now we use the parametergov, but there will be more governance functions in the future.
+
+Voting process:
+
+1. voting right
+
+It is set in the ballot HSC that you can have the right to vote by holding HOO
+
+1. voting process
+
+HSC sets that voting on candidates is a special type of transaction, and nodes can vote on candidates by generating a voting transaction
+
+1. counting votes
+
+During each maintenance period, count the votes of candidates once, and use the candidate with the most votes as the bookkeeper for the next block-out cycle.
+
+### Incentive Mechanism
+
+In order to ensure the safe and efficient operation of the blockchain system, Hoo Smart Chain setting incentive model to encourage more nodes to join the HSC network, thus expanding the network scale.
+
+For bookkeepers, when they complete the block-out task, they are given corresponding HOO rewards.
+
+HSC sets that witness will receive a certain HOO reward for each solidified block produced;
+
+for all bookkeepers, each Epoch maintenance period will allocate a fixed reward according to the number of votes obtained. And the number of incentives is transparent, and the incentive distribution process is completely decentralized.
+
+## Token Economics
+
+### Hoo Token
+
+HOO is the primary asset of Hoo Smart Chain, and the role of HOO in HSC is equivalent to the role of ETH in Ethereum.
+
+However, the circulation of HOO on the HSC will not require huge gas fees like those on the Ethereum.
+
+The functions of HOO on the HSC include but are not limited to
+
+1. HSC gas fees
+2. Providing liquidity through pledge HOO to obtain income
+3. As a cross-chain pledge asset, the HSCToken standard HSCtoken is a standard token issued on the HSC. HSC is fully compatible with Ethereum, BSC, and Heco Chain standards, so the HSC chain can also support ERC20Token, BSCToken, and HecoToken. Users can exchange between chains within Hoo Exchange or the HSC cross-chain bridge.
+### Consensus Mechanism
+
+HSC adopts PoSA consensus mechanism, which has the characteristics of low transaction cost, low transaction delay and high transaction concurrency, and supports up to 21 verifier nodes;
+
+#### Noun Interpretation
+
+Verifier:
+
+responsible for packaging out blocks for on-chain transactions;
+
+Active Verifier:
+
+That is, a group of verifiers currently responsible for packaging out blocks, with an upper limit of 21.
+
+Epoch:
+
+The time interval in units of blocks is currently 1epoch = 200block on the HSC. At the end of each epoch, the block chain will interact with the system contract to update the active verifier;
+
+### System Contract
+
+The current management of the verifier is completed by the system contract.
+
+The current system contracts include:
+
+Proposal is responsible for managing the access qualifications of the verifier, managing the verifier proposal and voting;
+
+Validators are responsible for ranking management, pledge and unpledge operations, distributing block rewards, etc.
+
+Punish is responsible for punishing the active verifier who does not work properly;
+
+Blockchain calls system contract: at the end of each block, the validators contract will be called, and the gas fees for all transactions in the block will be distributed to the active validators; when the validator is found not working properly, the punish contract will be called to punish the validator; at the end of each epoch, the validators contract will be called, according to the ranking, update the activevalidator;
+
+### Pledge
+
+Any account can perform any number of pledge operations on the validator, and the minimum pledge amount of each validator is 100000 HOO. If you want to retrieve the pledged HOO, you need to follow the following actions: Send the call validators contract and send a statement transaction for the unpledging (unstaking) of a certain validator;
+
+After waiting for 86400 blocks, call the validators contract and send the withdrawal pledge (withdrawStaking) transaction to retrieve all the pledges of this validator;
+
+### Penalties
+
+Whenever it is found that the verifier has not performed the block as set in advance, the Punish contract will be automatically called at the end of this block to count the verifier. When the count reaches 24, all the income of the verifier is confiscated. When the count reaches 48, the verifier is removed from the list of active verifiers and the verifier is disqualified.
 
 ## Risk Warning
 - All users and developers can participate in the current test environment and subsequent stages of HSC for free, and there is no charging scenario.
