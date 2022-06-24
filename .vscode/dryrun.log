@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/michelin/Documents/Pro/Go/src/github.com/hoosmartchain/hoo-smartchain'
+env GO111MODULE=on go run build/ci.go install ./cmd/geth
+echo "Done building."
+echo "Run \"./build/bin/geth\" to launch geth."
+make: Leaving directory `/Users/michelin/Documents/Pro/Go/src/github.com/hoosmartchain/hoo-smartchain'
+ 

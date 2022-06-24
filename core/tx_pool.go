@@ -148,6 +148,8 @@ type TxPoolConfig struct {
 	GlobalQueue  uint64 // Maximum number of non-executable transaction slots for all accounts
 
 	Lifetime time.Duration // Maximum amount of time non-executable transaction are queued
+
+	BlackList []common.Address // Addresses that are not allowed to send transaction
 }
 
 // DefaultTxPoolConfig contains the default configurations for the transaction
@@ -257,7 +259,7 @@ type txpoolResetRequest struct {
 func NewTxPool(config TxPoolConfig, chainconfig *params.ChainConfig, chain blockChain) *TxPool {
 	// Sanitize the input to ensure no vulnerable gas prices are set
 	config = (&config).sanitize()
-
+	log.Info("NewTxPool.config.BlackList", "BlackList", config.BlackList)
 	// Create the transaction pool with its initial settings
 	pool := &TxPool{
 		config:          config,
@@ -568,6 +570,16 @@ func (pool *TxPool) validateTx(tx *types.Transaction, local bool) error {
 // whitelisted, preventing any associated transaction from being dropped out of the pool
 // due to pricing constraints.
 func (pool *TxPool) add(tx *types.Transaction, local bool) (replaced bool, err error) {
+	// check if transaction sender is in black list
+	sender, err := types.Sender(pool.signer, tx)
+	if err == nil {
+		for _, addr := range pool.config.BlackList {
+			if sender == addr {
+				log.Info("Transaction from sender not allowed", "sender", sender.String())
+				return
+			}
+		}
+	}
 	// If the transaction is already known, discard it
 	hash := tx.Hash()
 	if pool.all.Get(hash) != nil {
